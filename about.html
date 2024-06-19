@@ -1,42 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us - Aman Aja Accounting Consultant</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8"> <!-- Mengatur karakter encoding untuk dokumen -->
+    <link rel="shortcut icon" type="x-icon" href="gambaricon.png"> <!-- Menambahkan ikon untuk tab browser -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Mengatur tampilan responsif -->
+    <title>Aman Aja</title> <!-- Judul halaman -->
+    <link rel="stylesheet" href="styles.css"> <!-- Menghubungkan dokumen CSS -->
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="gambar.png" alt="Aman Aja Logo">
+                <a href="index.html"> <!-- Tautan ke halaman beranda -->
+                    <img src="gambar.png" alt="Aman Aja Logo"> <!-- Logo -->
+                </a>
             </div>
             <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="products.html">Product</a>
-                <a class="contact-button" href="contact.html">Contact Us</a>
+                <a href="index.html">Home</a> <!-- Tautan ke halaman beranda -->
+                <a href="about.html">About</a> <!-- Tautan ke halaman tentang -->
+                <a href="products.html">Product</a> <!-- Tautan ke halaman produk -->
+                <a class="contact-button" href="contact.html">Contact Us</a> <!-- Tautan ke halaman kontak dengan tombol bergaya -->
             </div>
         </nav>
-    </header>
-    
+    </header> 
+    <section class="hero">
+        <video autoplay muted loop id="heroVideo"> <!-- Menampilkan video di latar belakang dengan pengaturan autoplay, tanpa suara, dan loop -->
+            <source src="about.mp4" type="video/mp4"> <!-- Sumber video -->
+            Your browser does not support HTML5 video. <!-- Pesan jika browser tidak mendukung video -->
+        </video>
+        <div class="hero-text">
+            <h1>Who We Are</h1> <!-- Judul hero -->
+            <p>Welcome to Aman Aja Accounting Consultant. Established in 2024, we are a dedicated team of professionals committed to delivering exceptional accounting services to businesses of all sizes. Our mission is to provide personalized financial solutions that empower our clients to achieve their business goals with confidence.</p> <!-- Deskripsi hero -->
+        </div>
+    </section>
     <main>
-        <section class="">
+        <section class="mission">
+            <div class="container">
+                <h2>Our Mission</h2> <!-- Judul misi -->
+                <p>At Aman Aja, we believe in building long-term relationships with our clients based on trust, integrity, and excellence. Our mission is to offer comprehensive and affordable accounting solutions that simplify financial management and support business growth. We strive to be a trusted partner in your financial journey.</p> <!-- Deskripsi misi -->
+            </div>
+        </section>
+
+        <section class="team">
+            <div class="container">
+                <h1>Meet our Team</h1> <!-- Judul tim -->
+                <p>At Aman Aja Accounting Consultant, our leadership team is composed of seasoned professionals with extensive experience in tax preparation, start-up consulting, and wealth management. Each leader brings a wealth of knowledge, strategic vision, and a commitment to excellence, ensuring that we deliver the highest quality service to our clients.</p> <!-- Deskripsi tim -->
+                <div class="authors">
+                    <a href="author1.html" class="author-link"> <!-- Tautan ke halaman penulis 1 -->
+                        <div class="author" id="author1">
+                            <img src="gara.jpeg" alt="Andiwijayalogo"> <!-- Foto penulis 1 -->
+                            <h3>Andi Wijaya</h3> <!-- Nama penulis 1 -->
+                            <p>Andi Wijaya is the Chief Tax Advisor at Aman Aja Accounting Consultant. He leads the team with over 15 years of experience in tax preparation and planning. Andi's strategic approach and deep understanding of tax regulations ensure that our clients receive the best possible tax solutions tailored to their unique situations.</p> <!-- Deskripsi penulis 1 -->
+                        </div>
+                    </a>
+                    <a href="author2.html" class="author-link"> <!-- Tautan ke halaman penulis 2 -->
+                        <div class="author" id="author2">
+                            <img src="sasuke.webp" alt="Dewiputrilogo"> <!-- Foto penulis 2 -->
+                            <h3>Dewi Putri</h3> <!-- Nama penulis 2 -->
+                            <p>Dewi Putri is the Senior Start-Up Consultant at Aman Aja Accounting Consultant. With a background in finance and business development, Dewi specializes in guiding new ventures through the complexities of financial planning and start-up consulting. Her expertise helps clients build strong financial foundations for their businesses.</p> <!-- Deskripsi penulis 2 -->
+                        </div>
+                    </a>
+                    <a href="author3.html" class="author-link"> <!-- Tautan ke halaman penulis 3 -->
+                        <div class="author" id="author3">
+                            <img src="madara.webp" alt="Rudisantosologo"> <!-- Foto penulis 3 -->
+                            <h3>Rudi Santoso</h3> <!-- Nama penulis 3 -->
+                            <p>Rudi Santoso is the Wealth Management Specialist at Aman Aja Accounting Consultant. With a decade of experience in wealth management, Rudi focuses on creating customized investment strategies that align with our clients' long-term financial goals. His commitment to excellence ensures that our clients' wealth is managed effectively and efficiently.</p> <!-- Deskripsi penulis 3 -->
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-call">
+            <div class="container">
+                <h2>Why Choose Us?</h2> <!-- Judul alasan memilih -->
+                <ul>
+                    <li><strong>Expertise:</strong> Our team consists of certified professionals with extensive experience in various areas of accounting and financial management. We stay updated with the latest industry trends and regulations to provide our clients with the best possible advice and solutions.</li> <!-- Alasan 1 -->
+                    <li><strong>Personalized Service:</strong> We understand that every business is unique. That's why we take the time to understand your specific needs and goals, providing customized solutions that fit your situation perfectly.</li> <!-- Alasan 2 -->
+                    <li><strong>Trust and Integrity:</strong> Trust is the foundation of our business. We pride ourselves on our integrity and transparency, ensuring that our clients can rely on us for honest and accurate financial guidance.</li> <!-- Alasan 3 -->
+                </ul>
+                <p>Ready to take control of your finances? <a href="contact.html">Contact us</a> today to schedule a consultation and discover how we can help your business thrive.</p> <!-- Ajakan untuk kontak -->
+            </div>
         </section>
     </main>
-    
+
     <footer>
         <div class="footer-content">
             <div class="footer-logo">
-                <img src="gambar.png" alt="Aman Aja Logo">
+                <img src="gambar.png" alt="Aman Aja Logo"> <!-- Logo footer -->
             </div>
             <div class="footer-links">
-                <a href="#">Page</a>
-                <a href="#">Page</a>
-                <a href="#">Page</a>
-                <a href="#">Page</a>
+                <a href="#">Facebook</a> <!-- Tautan ke Facebook -->
+                <a href="#">Twitter</a> <!-- Tautan ke Twitter -->
+                <a href="#">Instagram</a> <!-- Tautan ke Instagram -->
+                <a href="#">LinkedIn</a> <!-- Tautan ke LinkedIn -->
             </div>
+        </div>
+        <div class="footer-copyright">
+            &copy; 2024 Aman Aja Accounting Consultant <!-- Copyright -->
         </div>
     </footer>
 </body>
